@@ -7,9 +7,10 @@
 
 ## How does it work?
 - This script replaces the default embed code by Legal Monster
-- Using the JavaScript object `Intl.DateTimeFormat` we can detect the users system `timeZone`
+- Using the JavaScript constructor `Intl.DateTimeFormat` we can detect the users system `timeZone`
 - It checks the users actual system time clock
 - This means even if users has a VPN, it will still detect the users time zone correctly
+- It works for all modern browsers; Desktop & Mobile
 
 ## Requirements
 1. LegalMonster.com widget key
@@ -33,7 +34,7 @@ console.log("Legal Monster activated!");
     console.log("User not in Europe. Tracking enabled!");
 }
 </script>
-<!-- END Legal Monster Consent non-EU bypass AsadZulfahri.com-->
+<!-- END Legal Monster Consent non-EU bypass AsadZulfahri.com -->
 ```
 3. Replace `YOUR-WIDGET-KEY-HERE` with the your own key
 
@@ -44,3 +45,10 @@ console.log("Legal Monster activated!");
 1. On the `Embed your widget` textarea, scroll down to the bottom
 1. Your should see your widget key on the `widgetPublicKey` line
 
+## See this script in action!
+- This script is implemented on my website: [Asad Zulfahri](https://asadzulfahri.com/)
+
+## Troubleshooting
+1. Confirm that you have cleared your browser cookies and cache
+1. Confirm that you have JavaScript enabled in your browser
+1. Make sure your computer system timezone is set correctly to your current location
