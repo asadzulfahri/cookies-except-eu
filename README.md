@@ -12,7 +12,7 @@
 
 ## Requirements
 1. LegalMonster.com widget key
-1. kk
+1. Make sure all your tracking scripts are properly implemented as per documented by Legal Monster: [Collecting cookie consent](https://docs.legalmonster.com/legaljs/collecting-cookie-consent)
 
 
 ## How do I use it on my website?
@@ -34,7 +34,7 @@ console.log("Legal Monster activated!");
 </script>
 <!-- END Legal Monster Consent non-EU bypass AsadZulfahri.com-->
 ```
-1. Replace `YOUR-WIDGET-KEY-HERE` with the your own key
+3. Replace `YOUR-WIDGET-KEY-HERE` with the your own key
 
 ## Where can I find my Legal Monster widget key?
 1. Login to [Legal Monster](https://www.legalmonster.com/)
