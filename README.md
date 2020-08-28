@@ -1,7 +1,7 @@
-# Legal Monster Cookies Except EU
+# Legal Monster Consent non-EU bypass
 
 ## Purpose
-1. Enable Legal Monster cookie widget for users in the Europe
+1. Enable Legal Monster consent widget for users in the Europe
 1. Avoid using expensive and tedious GeoIP detection systems
 1. Disable Legal Monster widget for non-Europe locations; and enabling all tracking scripts
 
