@@ -6,6 +6,7 @@
 1. Disable Legal Monster widget for non-Europe locations; and enabling all tracking scripts
 
 ## How does it work?
+- This script replaces the default embed code by Legal Monster
 - Using the JavaScript object `Intl.DateTimeFormat` we can detect the users system `timeZone`
 - It checks the users actual system time clock
 - This means even if users has a VPN, it will still detect the users time zone correctly
